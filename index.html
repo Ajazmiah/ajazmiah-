@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> AJAZ MIAH | Front End Web Developer </title>
+      <meta charset="utf-8">
+      <meta name="description" content="Web Protfolio of a front end developer based in NYC">
+      <meta name="keywords" content="web Protfolio site">
+      <meta name="author" content="Ajaz Miah">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- STYLE SHEET -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+      <!--FONT AWESOME-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <![endif]-->
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5LYR38LLT"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'G-T5LYR38LLT');
+      </script>
+   </head>
+   <body>
+      <header class="header">
+         <ul class="menu__lines">
+            <span class="menu__lines-line"></span>
+            <span class="menu__lines-line"></span>
+            <span class="menu__lines-line"></span>
+         </ul>
+         <nav class="Navigation">
+            <div class="Navigation__content wrapper Navigation__content--wrapper">
+               <ul class="Navigation__list">
+                  <li class="Navigation__list-item"><a href="#top" class="link Navigation__list-link">Home</a></li>
+                  <li class="Navigation__list-item"><a href="#projects" class="link Navigation__list-link">Work</a></li>
+                  <li class="Navigation__list-item"><a href="#skills" class="link Navigation__list-link">Skills</a></li>
+                  <li class="Navigation__list-item"><a href="#certifications" class="link Navigation__list-link">Certifications</a></li>
+                  <li class="Navigation__list-item"><a href="#about"class="link Navigation__list-link">About</a></li>
+                  <li class="Navigation__list-item"><a href="#contact"class="link Navigation__list-link">Contact</a></li>
+               </ul>
+               <ul class="Navigation__list--socials">
+                  <li class="social">
+                     <a href="https://www.linkedin.com/in/ajazul-miah-96283584/" class="link" target="_blank">
+                        <svg class="icon icon-linkedin">
+                           <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="social">
+                     <a href="https://github.com/Ajazmiah" class="link" target="_blank">
+                        <svg class="icon icon-github">
+                           <use xlink:href="./img/sprite.svg#icon-github"></use>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <main class="main" >
+         <section class="landingpage ">
+            <div class="landingpage__content wrapper">
+               <div class="landingpage__content__intro" data-aos="fade-right">
+                  <h1 class="name">AJAZ MIAH</h1>
+                  <p>I'm a Front-End Web Developer located in New York City.
+                     I have a genuine passion for the word of web
+                     and front end UI development
+                  </p>
+                  <div class="Btns__container">
+                     <a class="Btn" href="#projects" >projects</a>
+                     <a class='Btn' href="#contact">contact</a>
+                  </div>
+               </div>
+               <div class="scene"  data-aos="fade-up" data-aos-duration="1200"   data-aos-easing="ease-in-out">
+                  <div class="cube">
+                     <div class="cube__face cube__face--js">JS</div>
+                     <div class="cube__face cube__face--react">REACT JS</div>
+                     <div class="cube__face cube__face--css">CSS</div>
+                     <div class="cube__face cube__face--scss">SCSS</div>
+                     <div class="cube__face cube__face--git">GIT</div>
+                     <div class="cube__face cube__face--nodejs">NODE JS</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--RECNT WORK SECTION-->
+         <section class="section projects" id="projects">
+            <h2 class="section__header">PROJECTS</h2>
+            <div class="projects__container">
+               <div class="project">
+                  <div class="project__img"data-aos="fade-right">
+                      <img src="./img/ecommerce.jpg"/>
+                  </div>
+                  <div class="project__details"data-aos="fade-up">
+                     <h3 class="project__details__name">React.Js Ecommerce</h3>
+                     <p class="project__details__summary">
+                        This project was built with React js and React Redux for state management.
+                        It has all the modern E-commerce functionalities and features.
+                     </p>
+                     <div class="project__links">
+                        <a href="https://elastic-chandrasekhar-c93b3d.netlify.app/" class="Btn project__links__link" target="_blank" >Demo</a>
+                        <a href="https://github.com/Ajazmiah/React_Js_Ecommerce.git" class="Btn project__links__link">View Github Repo</a>
+                     </div>
+                  </div>
+               </div>
+
+
+                <div class="project">
+                  <div class="project__img"data-aos="fade-right">
+                      <img src="./img/foodbank.jpg"/>
+                  </div>
+                  <div class="project__details"data-aos="fade-up">
+                     <h3 class="project__details__name">Edamam Recipe</h3>
+                     <p class="project__details__summary">
+                        This project uses Edamam recipe API to fetch recipe data based on search query.
+                        React Js , Redux Toolkit and React-router was used to build this application.
+                     </p>
+                     <div class="project__links">
+                        <a href="https://laughing-pasteur-6b160c.netlify.app/" class="Btn project__links__link" target="_blank" >Demo</a>
+                        <a href="https://github.com/Ajazmiah/foodCircle" class="Btn project__links__link">View Github Repo</a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="project">
+                  <div class="project__img" data-aos="fade-up">
+                     <video class="video" controls>
+                        <source src="./vid/easyStudy.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                     </video>
+                  </div>
+                  <div class="project__details" data-aos="fade-left">
+                     <h3 class="project__details__name">Study Easy</h3>
+                     <p class="project__details__summary">
+                        This project was built with React js( React Hooks).Allows users to create flash card and save it in local storage.
+                     </p>
+                     <div class="project__links">
+                        <a href="https://brave-sammet-4126f9.netlify.app/" class="Btn project__links__link" target="_blank" >Demo</a>
+                        <a href="https://github.com/Ajazmiah/easyStudy.git" class="Btn project__links__link ">View Github Repo</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="project">
+                  <div class=" project__img" data-aos="fade-right">
+                     <img src="./img/beyondsolution1.jpg"/>
+                  </div>
+                  <div class="project__details" data-aos="fade-left">
+                     <h3 class="project__details__name">Beyond Solution</h3>
+                     <p class="project__details__summary">
+                        This is an IT consultant website which was built using CSS flex-box and
+                        responsive accross different device width.
+                     </p>
+                     <div class="project__links">
+                        <a href="https://laughing-cori-1414e9.netlify.app" class="Btn project__links__link" target="_blank" >Demo</a>
+                        <a href="https://github.com/Ajazmiah/beyondSolution"  class="Btn project__links__link ">View Github Repo</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="project">
+                  <div class="project__img" data-aos="fade-up"><img src="./img/bookmark.jpg" loading="lazy"/></div>
+                  <div class="project__details" data-aos="fade-left">
+                     <h3 class="project__details__name">BookMark App</h3>
+                     <p class="project__details__summary">
+                        The image of this project is self explanatory,
+                        however this application allows users to bookmark
+                        website with custom name and uses Local storage to save
+                        the bookmarks untill the
+                        use deletes them manually.
+                     </p>
+                     <div class="project__links">
+                        <a href="https://epic-borg-a1c871.netlify.app" class="Btn project__links__link" target="_blank" >Demo</a>
+                        <a href="https://github.com/Ajazmiah/BookmarkApp"  class="Btn project__links__link">View GIthub Repo</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="project">
+                  <div class="project__img" data-aos="fade-up">
+                     <img src="./img/githubfinder.jpg"/>
+                  </div>
+                  <div class="project__details" data-aos="fade-left">
+                     <h3 class="project__details__name">Github Profile Finder</h3>
+                     <p class="project__details__summarydetails">
+                        This application uses Github API, which allows users to look up a github profile and view all information relating
+                        to the profile and also their repo.
+                     </p>
+                     <div class="project__links">
+                        <a href="https://sharp-edison-490d2f.netlify.app" class="Btn project__links__link" target="_blank" >Demo</a>
+                        <a href="https://github.com/Ajazmiah/githubProfileFinder"  class="Btn project__links__link ">View Github Repo</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--MY SKILLS-->
+         <section class=" section Skill-section skill-and-certification" id="skills">
+            <h2 class="section__header">SKILLS</h2>
+            <div class="wrapper">
+               <!-- <svg class="icon icon-bucket" id="bucket"><use xlink:href='./dist/img/sprite.svg#icon-bucket'></use></svg> -->
+               <ul class="skillLists">
+                  <li class="skill"data-aos='zoom-in' data-aos-delay="5">HTML</li>
+                  <li class="skill"data-aos='zoom-in' data-aos-delay="10">CSS</li>
+                  <li class="skill"data-aos='zoom-in' data-aos-delay="15">SASS</li>
+                  <li class="skill"data-aos='zoom-in' data-aos-delay="20">JAVASCRIPT</li>
+                  <li class="skill"data-aos='zoom-in' data-aos-delay="25">React js</li>
+                  <li class="skill"data-aos='zoom-in' data-aos-delay="30">TypeScript</li>
+                  <li class="skill"data-aos='zoom-in' data-aos-delay="35">Sql</li>
+                  <li class="skill"data-aos='zoom-in' data-aos-delay="40">python</li>
+                  <li class="skill"data-aos='zoom-in'  data-aos-delay="45">GIT & GITHUB</li>
+               </ul>
+            </div>
+         </section>
+         <section class="section Certification-section skill-and-certification" id="certifications">
+            <div class="wrapper">
+               <div>
+                  <ul class="certification-list">
+                     <li>
+                        <a href="https://www.youracclaim.com/badges/401413c1-b70d-4233-9368-3f122c7286f6">
+                        <img src="./img/certification.png" class="certification">
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <!--ABOUT ME-->
+         <section class="section about-section" id="about">
+            <div class="wrapper about-wrapper">
+               <div class="flex about flex__about">
+                  <div class="about-text">
+                     <p>Hey, I'm Ajaz. I enjoy writing code, making web application, learning new technologies, and inhancing my skills everyday. This webite is designed and coded by me using HTML , CSS , and javaScript, without using any predesigned theme.</p>
+                     <br>
+                     <p>I'm a senior at New York City College Of Technology. Studying in computer information technology (concentration in software development.</p>
+                  </div>
+                  <div class="about-img">
+                     <img src="./img/me.webp">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--CONTACT FORM-->
+         <section class="section contact-section" id="contact">
+            <div class="Wrapper">
+               <div class="formContent">
+                  <div class="formContent-left">
+                     <h4 class="formContent-left-header">LET'S HAVE SOME WORDS</h4>
+                     <ul class="social__bottom">
+                       <li class="social">
+                          <a href="https://www.linkedin.com/in/ajazul-miah-96283584/" class="link" target="_blank">
+                             <svg class="icon icon-linkedin">
+                                <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+                             </svg>
+                          </a>
+                       </li>
+                       <li class="social">
+                          <a href="https://github.com/Ajazmiah" class="link" target="_blank">
+                             <svg class="icon icon-github">
+                                <use xlink:href="./img/sprite.svg#icon-github"></use>
+                             </svg>
+                          </a>
+                       </li>
+                     </ul>
+                  </div>
+                  <div class="formDiv">
+                     <form class="form" name="contact" method="POST" data-netlify="true">
+                        <input type='text' placeholder="name" name='name'/><br/>
+                        <input tynewpe='text' placeholder="email" name='email'/><br/>
+                        <textarea placeholder="message.." name='message'></textarea><br/>
+                        <button type="submit" class="send">SEND</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer>
+         <p>&copy; 2021 AJAZ MIAH- ALL RIGHTS RESERVED</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
